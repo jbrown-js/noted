@@ -1,8 +1,8 @@
 # 📝 Noted – Simple Notes Web App
 
 A lightweight browser-based notes app built with HTML, CSS, and JavaScript.  
-It allows you to create, edit, rename, and delete notes, with all data saved locally in your browser. 
-Built as a learning project using vanilla HTML, CSS, and JavaScript, with AI-assisted guidance during development.
+It allows you to create, edit, rename, and delete notes, with all data saved locally in your browser.        
+Built as a learning project using vanilla HTML, CSS, and JavaScript, with AI-assisted guidance during development.    
 
 ---
 
