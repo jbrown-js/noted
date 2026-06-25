@@ -1,6 +1,13 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 * {
-    margin: 0px;
-    padding:0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
 
@@ -86,18 +93,20 @@ h1 {
 @media (max-width: 768px) {
     body {
         flex-direction: column;
+        width: 100%;
+        overflow-x: hidden;
     }
 
     .leftbar {
         width: 100%;
         padding: 15px;
+        overflow-x: hidden;
     }
 
     .newnote,
     .savenote,
     .opennote {
         width: 100%;
-        max-width: none;
     }
 
     .savednotes {
@@ -105,14 +114,13 @@ h1 {
     }
 
     .notebox {
+        width: 100%;
         min-height: 60vh;
     }
 
     .notebox textarea {
+        width: 100%;
         min-height: 60vh;
-    }
-
-    h1 {
-        margin-top: 0;
+        display: block;
     }
 }
