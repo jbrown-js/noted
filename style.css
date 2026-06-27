@@ -93,9 +93,10 @@ h1 {
     .notebox {
         width: 100%;
         min-height: 60vh;
+        margin-top: 10px;
     }
 
     .notebox textarea {
-        min-height: 60vh;
+        min-height: 100vh;
     }
 }
